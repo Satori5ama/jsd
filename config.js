@@ -6,8 +6,7 @@ export const CONFIG = {
     MAX_FILE_SIZE: 5,
 
     // 允许的文件扩展名 (空数组表示不限制文件类型)
-    // ALLOWED_EXTENSIONS: [".js", ".css", ".json", ".txt", ".md", ".xml", ".svg", ".woff", ".woff2",],
-    ALLOWED_EXTENSIONS: [],
+    ALLOWED_EXTENSIONS: [".js", ".css", ".json", ".txt", ".md", ".xml", ".svg", ".woff", ".woff2", ".jpg", ".png", ".webp",],
 
     // 缓存设置
     CACHE_MAX_AGE: 24 * 60 * 60, // 24小时 (单位：秒)
